@@ -1,2 +1,5 @@
 # png-many-years-calendar
-:hourglass_flowing_sand:  Изображения с календарями на большое количество лет( >=60 ) и генерирующий их скрипт на Python
+Календарь-изображение на большое количество лет. По умолчанию 60 лет на формате А0
+
+
+*Read this in other languages: English, [Русский](README.ru.md)*
