@@ -1,8 +1,8 @@
 # Календарь на одну жизнь #
 
-*Read this in other languages: [English](README.md), Русский*
+*Read this in other languages: [English](https://github.com/notdest/png-many-years-calendar), Русский*
 
-[![Пример календаря](https://raw.githubusercontent.com/notdest/png-many-years-calendar/master/img/foto.JPG)](result/rus/60)
+<img src="https://raw.githubusercontent.com/notdest/png-many-years-calendar/master/img/foto.JPG" alt="пример календаря">
 
 Изображения с календарями для распечатки и генерирующий скрипт. Все изображения имеют формат *\*.png*, размер *А0 (1189x841мм)* и разрешение *300dpi*(*14043x9933px*). Можно распечатать в «Копирке» за 150₽ или ещё дешевле в других копировальных центрах.
 
