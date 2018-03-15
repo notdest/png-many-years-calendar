@@ -1,4 +1,4 @@
-# calendar for a lifetime #
+# Calendar for a lifetime #
 
 *Read this in other languages: English, [Русский](README.ru.md)*
 
@@ -6,26 +6,24 @@
 
 Print version and generating script. All images are in the format *\*.png*, size *A0 (1189x841mm)* and resolution *300dpi* (*14043x9933px*). You can print out it in printing company.
 
-The calendar was created as an instrument for introspection. You may note dates of different events and periods in your life,and **estimate their parting in scale of your life**. By the way, the sum of this events and periods shape your personality. This is the way to understand who you are.
+The calendar was created as an instrument for introspection. You may note dates of different events and periods in your life, and **estimate their parting in scale of your life**. By the way, the sum of this events and periods shape your personality. This is the way to understand who you are. This is also the way to understand the real lifetime price of our plans. For example shows if you ready to sign long **listing** contract. Or shows livetime price of large purchases material plans: for example - to understand that you have to spend this year for this car or this 5 years is for this apartments.
 
- Также можно объективней оценить отношение цена/выгода у планируемых действий, например готов ли ты подписать какой-нибудь длительный контракт. Ну и высший пилотаж - перевести в время стоимость крупных материальных планов, чтобы понимать: "ради этой машины я пожертвую вот этим вот годом" или "ради этой квартиры я потрачу вот эти 5 лет" и т.п.
+Example: picture down - the chart of surviving probability to age. Horizontal axe - age, vertical - percent of people reached such age.<br>
+ <img src="img/chart.png" alt="probability chart for survival">
 
-Для примера на картинке снизу показан график вероятности доживания. По горизонтальной оси - возраст, по вертикальной - процент людей доживших до него.<br>
- <img src="img/chart.png" alt="график вероятности доживания">
+Calendars are divided with the year of birth. Headline forms automatically according to this (like `1994 15 years`). Variants available:
 
-Календари разделены по годам рождения, соответственно каждый начинается с указанного года и исходя из этого формируются заголовки вроде `1994г   15лет`. Есть следующие варианты:
+* 60 years lifetime calendar, **landscape** paper orientation. Each year has the biggest area. **Not yet** comes years are shown just to understand the scale. <a href="https://github.com/notdest/png-many-years-calendar-output/tree/master/result/eng/60" target="_blank">image folder :open_file_folder:</a>
 
-* Календарь на 60 лет на **горизонтально** ориентированном листе. Наиболее применим, т. к. каждый год занимает наибольшую площадь, а ненаступившие годы нужны только для понимания масштаба.<a href="https://github.com/notdest/png-many-years-calendar-output/tree/master/result/rus/60" target="_blank">Папка с изображениями :open_file_folder:</a>
+* 80 years lifetime calendar, **portrait** paper orientation. Reduced space for each year. <a href="https://github.com/notdest/png-many-years-calendar-output/tree/master/result/eng/80" target="_blank">image folder :open_file_folder:</a>
 
-* Календарь на 80 лет на **вертикально** ориентированном листе. Каждый год занимает меньшую площадь, из-за поворота листа. <a href="https://github.com/notdest/png-many-years-calendar-output/tree/master/result/rus/80" target="_blank">Папка с изображениями :open_file_folder:</a>
+* 100 years lifetime calendar, **portrait** paper orientation. The area of a year is same as previous, the cells are little bit tense. <a href="https://github.com/notdest/png-many-years-calendar-output/tree/master/result/eng/100" target="_blank">image folder :open_file_folder:</a>
 
-* Календарь на 100 лет на **вертикально** ориентированном листе. Площадь каждого года такая же, как у предыдущего, но они расположены немного плотнее. <a href="https://github.com/notdest/png-many-years-calendar-output/tree/master/result/rus/100" target="_blank">Папка с изображениями :open_file_folder:</a>
+There is also a *pdf-version* on a large number of A4 sheets. ([Download <img src="img/pdf-icon.png" alt="pdf"  height="25" />](https://github.com/notdest/png-many-years-calendar-output/raw/master/result/A4.pdf)).
 
-Также есть *pdf-версия* на большом количестве листов А4([Скачать <img src="img/pdf-icon.png" alt="pdf"  height="25" />](https://github.com/notdest/png-many-years-calendar-output/raw/master/result/A4.pdf)).
-
-По коду. Проект содержит единственный файл [generator.py](generator.py), который тянет за собой библиотеку PIL. В нем наиболее интересны для повторного использования функции `printMonth()` и `printYear()` в самом верху. Каждая из них требует наличия глобальной переменной `rus`, значение которой определяет язык заголовков(`True` - Русский, `False` - Английский), и переменной `draw`, которая получается следующим образом
+About the code. The project contains a single file [generator.py](generator.py), that requires the PIL library. It is most interesting for reusing the `printMonth()` and `printYear()` functions at the top. They require a global variable `rus`, the value of which determines the language of the headers (`True` - Russian, `False` - English), and the variable `draw`, which is obtained as follows
 ```python
 image       = Image.new("L", (imageWidth,imageHeight), 255)
 draw        = ImageDraw.Draw(image)
 ```
-Остальные переменные интуитивно понятны из названия. В случае если `yearOfBirth > year`, функция `printYear()` не печатает возраст в заголовке.
+The remaining variables are intuitively understood from the name. In the case of `yearOfBirth > year`, the `printYear()` function does not print age in the header.
