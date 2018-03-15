@@ -6,9 +6,9 @@
 
 Print version and generating script. All images are in the format *\*.png*, size *A0 (1189x841mm)* and resolution *300dpi* (*14043x9933px*). You can print out it in printing company.
 
-The calendar was created as a tool for introspection. You may note dates of different events and periods in your life, **value their parting in scale of your life**.
+The calendar was created as an instrument for introspection. You may note dates of different events and periods in your life,and **estimate their parting in scale of your life**. By the way, the sum of this events and periods shape your personality. This is the way to understand who you are.
 
-///На нем можно по датам отметить сроки различных событий и **оценить их в масштабе своей жизни**. Кстати, из суммы этих событий, твоего опыта, состоит твоя личность, то есть ты лучше поймешь, что из себя представляешь. Также можно объективней оценить отношение цена/выгода у планируемых действий, например готов ли ты подписать какой-нибудь длительный контракт. Ну и высший пилотаж - перевести в время стоимость крупных материальных планов, чтобы понимать: "ради этой машины я пожертвую вот этим вот годом" или "ради этой квартиры я потрачу вот эти 5 лет" и т.п.
+ Также можно объективней оценить отношение цена/выгода у планируемых действий, например готов ли ты подписать какой-нибудь длительный контракт. Ну и высший пилотаж - перевести в время стоимость крупных материальных планов, чтобы понимать: "ради этой машины я пожертвую вот этим вот годом" или "ради этой квартиры я потрачу вот эти 5 лет" и т.п.
 
 Для примера на картинке снизу показан график вероятности доживания. По горизонтальной оси - возраст, по вертикальной - процент людей доживших до него.<br>
  <img src="img/chart.png" alt="график вероятности доживания">
