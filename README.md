@@ -27,3 +27,5 @@ image       = Image.new("L", (imageWidth,imageHeight), 255)
 draw        = ImageDraw.Draw(image)
 ```
 The remaining variables are intuitively understood from the name. In the case of `yearOfBirth > year`, the `printYear()` function does not print age in the header.
+
+**If English is your native language, please suggest editing this text on an e-mail in my profile or via github**
