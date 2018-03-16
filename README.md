@@ -6,18 +6,18 @@
 
 Print version and generating script. All images are in the format *\*.png*, size *A0 (1189x841mm)* and resolution *300dpi* (*14043x9933px*). You can print out it in printing company.
 
-The calendar was created as an instrument for introspection. You may note dates of different events and periods in your life, and **estimate their parting in scale of your life**. By the way, the sum of this events and periods shape your personality. This is the way to understand who you are. This is also the way to understand the real lifetime price of our plans. For example shows if you ready to sign long **listing** contract. Or shows livetime price of large purchases material plans: for example - to understand that you have to spend this year for this car or this 5 years is for this apartments.
+The calendar was created as an instrument for introspection. You may note dates of different events and periods in your life, and **estimate their parting in scale of your life**. By the way, the sum of this events and periods shape your personality. This is the way to understand who you are. You can also understand, for example, whether you are ready to sign any long-term contract. Or convert the cost of large purchases to the time spent, for example: "to buy this apartment, I have to spend these 5 years".
 
 Example: picture down - the chart of surviving probability to age. Horizontal axe - age, vertical - percent of people reached such age.<br>
  <img src="img/chart.png" alt="probability chart for survival">
 
 Calendars are divided with the year of birth. Headline forms automatically according to this (like `1994 15 years`). Variants available:
 
-* 60 years lifetime calendar, **landscape** paper orientation. Each year has the biggest area. **Not yet** comes years are shown just to understand the scale. <a href="https://github.com/notdest/png-many-years-calendar-output/tree/master/result/eng/60" target="_blank">image folder :open_file_folder:</a>
+* 60 years lifetime calendar, **landscape** paper orientation. Each year has the biggest area. Not yet comes years are shown just to understand the scale. <a href="https://github.com/notdest/png-many-years-calendar-output/tree/master/result/eng/60" target="_blank">image folder :open_file_folder:</a>
 
 * 80 years lifetime calendar, **portrait** paper orientation. Reduced space for each year. <a href="https://github.com/notdest/png-many-years-calendar-output/tree/master/result/eng/80" target="_blank">image folder :open_file_folder:</a>
 
-* 100 years lifetime calendar, **portrait** paper orientation. The area of a year is same as previous, the cells are little bit tense. <a href="https://github.com/notdest/png-many-years-calendar-output/tree/master/result/eng/100" target="_blank">image folder :open_file_folder:</a>
+* 100 years lifetime calendar, **portrait** paper orientation. The area of a year is same as previous, the cells are denser. <a href="https://github.com/notdest/png-many-years-calendar-output/tree/master/result/eng/100" target="_blank">image folder :open_file_folder:</a>
 
 There is also a *pdf-version* on a large number of A4 sheets. ([Download <img src="img/pdf-icon.png" alt="pdf"  height="25" />](https://github.com/notdest/png-many-years-calendar-output/raw/master/result/A4.pdf)).
 
