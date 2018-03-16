@@ -8,7 +8,7 @@ Print version and generating script. All images are in the format *\*.png*, size
 
 The calendar was created as an instrument for introspection. You may note dates of different events and periods in your life, and **estimate their parting in scale of your life**. By the way, the sum of this events and periods shape your personality. This is the way to understand who you are. You can also understand, for example, whether you are ready to sign any long-term contract. Or convert the cost of large purchases to the time spent, for example: "to buy this apartment, I have to spend these 5 years".
 
-Example: picture down - the chart of surviving probability to age. Horizontal axe - age, vertical - percent of people reached such age.<br>
+Example: picture down - the chart of surviving probability to age. Horizontal axis - age, vertical - percent of people reached such age.<br>
  <img src="img/chart.png" alt="probability chart for survival">
 
 Calendars are divided with the year of birth. Headline forms automatically according to this (like `1994 15 years`). Variants available:
