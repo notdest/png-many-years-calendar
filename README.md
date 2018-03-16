@@ -1,4 +1,4 @@
-# Calendar for a lifetime #
+# Calendar for a one lifetime #
 
 *Read this in other languages: English, [Русский](README.ru.md)*
 
@@ -13,11 +13,11 @@ Example: picture down - the chart of surviving probability to age. Horizontal ax
 
 Calendars are divided with the year of birth. Headline forms automatically according to this (like `1994 15 years`). Variants available:
 
-* 60 years lifetime calendar, **landscape** paper orientation. Each year has the biggest area. Not yet comes years are shown just to understand the scale. <a href="https://github.com/notdest/png-many-years-calendar-output/tree/master/result/eng/60" target="_blank">image folder :open_file_folder:</a>
+* 60 years calendar, **landscape** paper orientation. Each year has the biggest area. Not yet comes years are shown just to understand the scale. <a href="https://github.com/notdest/png-many-years-calendar-output/tree/master/result/eng/60" target="_blank">image folder :open_file_folder:</a>
 
-* 80 years lifetime calendar, **portrait** paper orientation. Reduced space for each year. <a href="https://github.com/notdest/png-many-years-calendar-output/tree/master/result/eng/80" target="_blank">image folder :open_file_folder:</a>
+* 80 years calendar, **portrait** paper orientation. Reduced space for each year. <a href="https://github.com/notdest/png-many-years-calendar-output/tree/master/result/eng/80" target="_blank">image folder :open_file_folder:</a>
 
-* 100 years lifetime calendar, **portrait** paper orientation. The area of a year is same as previous, the cells are denser. <a href="https://github.com/notdest/png-many-years-calendar-output/tree/master/result/eng/100" target="_blank">image folder :open_file_folder:</a>
+* 100 years calendar, **portrait** paper orientation. The area of a year is same as previous, the cells are denser. <a href="https://github.com/notdest/png-many-years-calendar-output/tree/master/result/eng/100" target="_blank">image folder :open_file_folder:</a>
 
 There is also a *pdf-version* on a large number of A4 sheets. ([Download <img src="img/pdf-icon.png" alt="pdf"  height="25" />](https://github.com/notdest/png-many-years-calendar-output/raw/master/result/A4.pdf)).
 
